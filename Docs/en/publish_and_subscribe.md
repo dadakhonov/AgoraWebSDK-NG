@@ -25,7 +25,7 @@ With regard to publishing, note the following:
 - You can only publish one video track at a time.
 - An `AgoraRTCClient` object can publish multiple audio tracks at the same time. The SDK automatically mixes the audio tracks into one audio track.
   > Exception: Safari does not support publishing multiple audio tracks on versions earlier than Safari 12.
-- An `AgoraRTCClient` object can publish **only one video track** at the same time. If you want to switch the published video track, for example, from a camera video track to a scree-sharing video track, you must unpublish the published video track.
+- An `AgoraRTCClient` object can publish **only one video track** at the same time. If you want to switch the published video track, for example, from a camera video track to a screen-sharing video track, you must unpublish the published video track.
 - You can call this method multiple times to publish different tracks, but you cannot publish the same track object repeatedly.
 - This method is asynchronous and needs to be used with `Promise` or `async/await`.
 
